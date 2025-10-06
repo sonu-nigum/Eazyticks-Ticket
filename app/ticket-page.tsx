@@ -227,7 +227,7 @@ export default function GetTickets() {
       javaScriptEnabled={true}
       domStorageEnabled={true}
       startInLoadingState={true}
-      scalesPageToFit={true}   // makes it zoom properly
+      scalesPageToFit={true}   
     />
   </View>
         )}
