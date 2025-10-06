@@ -9,7 +9,7 @@ const { width, height } = Dimensions.get("window");
 export default function IntroScreen() {
   useEffect(() => {
     const timer = setTimeout(() => {
-      router.replace("/onboarding");
+      router.replace("/ticket-page");
     }, 5000);
 
     return () => clearTimeout(timer);

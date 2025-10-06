@@ -46,11 +46,11 @@ export default function GetTickets() {
   ];
 
   const shopItems = [
-    { key: "nachos", label: "Nachos", price: prices.nachos, image: require("../../assets/images/Nachos.png") },
-    { key: "nachosCheese", label: "Nachos w/ Chili & Cheese", price: prices.nachosCheese, image: require("../../assets/images/nachos with chilli.png") },
-    { key: "water", label: "Water Bottle", price: prices.water, image: require("../../assets/images/Water Bottle.png") },
-    { key: "juice", label: "Juice", price: prices.juice, image: require("../../assets/images/Juice.png") },
-    { key: "fries", label: "Fries", price: prices.fries, image: require("../../assets/images/Fries.png") },
+    { key: "nachos", label: "Nachos", price: prices.nachos, image: require("../assets/images/Nachos.png") },
+    { key: "nachosCheese", label: "Nachos w/ Chili & Cheese", price: prices.nachosCheese, image: require("../assets/images/nachos with chilli.png") },
+    { key: "water", label: "Water Bottle", price: prices.water, image: require("../assets/images/Water Bottle.png") },
+    { key: "juice", label: "Juice", price: prices.juice, image: require("../assets/images/Juice.png") },
+    { key: "fries", label: "Fries", price: prices.fries, image: require("../assets/images/Fries.png") },
   ];
 
   const parkingItems = [
